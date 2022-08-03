@@ -2,9 +2,12 @@
 
 namespace Tests\Unit;
 
+use App\Http\Livewire\Quote;
+use Livewire\Livewire;
 use PHPUnit\Framework\TestCase;
+use function Termwind\render;
 
-class ExampleTest extends TestCase
+class QuoteTest extends TestCase
 {
     /**
      * A basic test example.
